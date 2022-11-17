@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "inasenfoods-2b81c": {
+      "hosting": {
+        "inasenfoods": [
+          "inasenfoods-2b81c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "inasenfoods-2b81c"
+  }
+}

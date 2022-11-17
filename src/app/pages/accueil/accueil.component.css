@@ -1,0 +1,40 @@
+#navbarmenu{
+  height: 10%;
+  background-color: whitesmoke;
+
+}
+button{
+  height: 40px;
+  width: 100px;
+  background-color: #0558ab;
+  border-radius: 30px;
+  border-color: white;
+}
+#btnslide:hover{
+  background-color: rgb(255, 186, 11);
+}
+
+#btn_view{
+  box-shadow: 200px;
+  border-radius: 10px;
+}
+h1{
+  color: #0558ab;
+}
+#layoutdiv{
+  height: 40px;
+  height: 20px;
+  padding-bottom: 200px;
+}
+.fade-in-text:hover {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 5s;
+  translate: initial;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
