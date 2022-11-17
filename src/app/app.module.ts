@@ -14,12 +14,14 @@ import { AccueilComponent } from './pages/accueil/accueil.component';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireStorageModule} from '@angular/fire/compat/storage';
 import { HttpClientModule } from '@angular/common/http';
+import { AproposComponent } from './pages/apropos/apropos.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    AccueilComponent
+    AccueilComponent,
+    AproposComponent,
   ],
   imports: [
     BrowserModule,
