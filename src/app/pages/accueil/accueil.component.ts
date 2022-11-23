@@ -19,7 +19,6 @@ export class AccueilComponent implements OnInit {
         const $key = item.payload.key;
         const data = { $key, ...item.payload.val() };
         this.slides.push(data as Slides);
-        console.log(this.slides)
       })
     })
   }

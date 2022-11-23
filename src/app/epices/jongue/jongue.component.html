@@ -3,8 +3,24 @@
 </div>
 <div class="row">
   <div class="col-sm-12 d-inline">
-    <div class="col-sm-9 fade-in-text">
+    <div class="col-sm-6 fade-in-text">
         <img class="img-responsive pb-4" src="https://firebasestorage.googleapis.com/v0/b/inasenfoods-2b81c.appspot.com/o/slides%2Fjongue.jpg?alt=media&token=cf1fe3d2-2cc7-48e0-94b8-ae1d12db02c0" alt="">
     </div>
+    <div class="col-sm-6">
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio omnis repudiandae ea totam vel placeat excepturi, eos ipsa, illum sapiente inventore sit odio maiores? Tenetur veritatis velit nobis totam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quaerat numquam aliquam esse perspiciatis explicabo laboriosam nihil rerum veritatis voluptatibus! Soluta commodi nesciunt exercitationem quo corporis ea alias adipisci ratione.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum veritatis amet maxime quas recusandae blanditiis possimus adipisci culpa nihil sapiente eius, laboriosam aliquam nam iste consequatur iusto. Aperiam, dolore ut.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit expedita, commodi maiores necessitatibus corrupti fuga suscipit libero rem non autem qui hic rerum eum deserunt totam similique sequi voluptatibus.
+        <marquee behavior="alternate" direction="scroll"><img src="https://caractereconseil.com/assets/c_brands/jongue/thumb/logo-9f96594ed1e745f1e30ee11df26c913f00eb054e9a20df148b649c74ec1859db.png" alt=""></marquee>
+      </h4>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3 fade-in-text mb-3" *ngFor="let item of jongues">
+    <h2 class="text-center m-3" style="background-color: #0336FF; color: white;">{{item.titre}}</h2>
+    <img src="{{item.image}}" class="img-responsive" alt="produit" style="cursor: pointer; padding-left: 110px;">
+    <h3 class="text-center">{{item.prix}} Fcfa</h3>
   </div>
 </div>
